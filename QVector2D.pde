@@ -1,4 +1,6 @@
 // PVector doesn’t have a rotate method, so I’m subclassing it
+// and because I suck at math, I also make it two-dimensional only so
+// I won’t have to implement rotation with a z-axis
 class QVector2D extends PVector
 {
   QVector2D (float x, float y)
